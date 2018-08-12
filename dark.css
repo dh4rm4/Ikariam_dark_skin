@@ -1,8 +1,4 @@
-/*
-################
-BUILDINGS POSITIONS
-################
-*/
+/* ################ BUILDINGS POSITIONS ################ */
 
 #city #locations .position0 {
     left: 924px;
@@ -10,20 +6,26 @@ BUILDINGS POSITIONS
 
 #city #locations .position5 {
     left: 880px;
-	    top: 636px;
+	    top: 634px;
 		}
 
-#city #locations .position5 {
-    left: 880px;
-	    top: 636px;
+#city #locations .position9 {
+    left: 685px;
+	    top: 505px;
 		}
 
-/*
-################
-Town Hall
-################
-*/
+#city #locations .position10 {
+    left: 1051px;
+	    top: 418px;
+		}
 
+#city #locations .position11 {
+    left: 1207px;
+	    top: 416px;
+		}
+
+
+/* ################ TOWN HALL ################ */
 #city #locations .townHall .buildingimg {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
 	}
@@ -37,12 +39,7 @@ Town Hall
 	}
 
 
-/*
-################
-Academia
-################
-*/
-
+/* ################ ACADEMIA ################ */
 #city #locations .academy .hover {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_academy.gif?raw=true) !important;
 	}
@@ -57,18 +54,23 @@ Academia
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_barracks2.gif?raw=true) !important;
 	}
 
-/*
 #city #locations .barracks .hover {
     display: none;
 	}
-	*/
 
 .animated .animation_flag_barracks_16steps {
     display: none !important
 	}
 
 
-/* ################ Ambroisy Shop ################ */
+
+/* ################ WAREHOUSE ################ */
+#city #locations .warehouse .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_warehouse.gif?raw=true);
+	}
+
+
+/* ################ AMBROISY SHOP ################ */
 #city #cityFlyingShopContainer {
     top: 310px;
 	    left: 1509px;
@@ -76,6 +78,16 @@ Academia
 
 #city #cityFlyingShopContainer {
     height: 50px !important;
+	}
+
+
+/* ################ CARPENTER ################ */
+#city #locations .carpentering .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_carpentering.gif?raw=true);
+	}
+
+#city #locations .carpentering .hover {
+    display: none;
 	}
 
 /*
