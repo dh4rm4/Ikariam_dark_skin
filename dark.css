@@ -1,17 +1,32 @@
 /*
 ################
+BUILDINGS POSITIONS
+################
+*/
+
+#city #locations .position0 {
+	left: 924px !important;
+}
+
+
+
+/*
+################
 Town Hall
 ################
 */
 
 #city #locations .townHall .buildingimg {
-    background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_townhall.gif) !important;
-} 
+	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
+}
 
 #city #locations .townHall .hover {
-    background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_townhall) !important;
-} 
+	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
+}
 
+#city #locations .building.townHall .flag_position {
+	display: none;
+}
 
 
 /*
@@ -19,20 +34,37 @@ Town Hall
 Academia
 ################
 */
+
 #city #locations .academy .hover {
-    background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_academy.gif) !important;
+	background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_academy.gif) !important;
 }
 
 #city #locations .academy .buildingimg {
-    background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_academy.gif) !important;
-
-#city #locations .academy a {
-    height: 90px !important;
-    width: 90px !important;
-    left: -10px !important;
-    bottom: 0px !important;
+	background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_academy.gif) !important;
 }
 
+
+/*
+################
+BARACKS
+################
+*/
+
+#city .animated #locations .barracks .buildingimg, #city .animated #locations .barracks.busy .buildingimg {
+	background-image: url(img/city/barracks_animted_r.png) !important;
+}
+
+#city #locations .barracks .buildingimg {
+	background-image: url(img/city/barrcks_r.png) !important;
+}
+
+#city .animated #locations .barracks .hover {
+	background-image: url(//gf2.geo.gfsrv.net/cdnd1/f70d31e….png) !important;
+}
+
+#city #locations .barracks .hover {
+	background-image: url(//gf1.geo.gfsrv.net/cdn0c/b994724….png) !important;
+}
 
 
 /*
@@ -40,7 +72,47 @@ Academia
 Ambroisy Shop
 ################
 */
+
 #city #cityFlyingShopContainer {
-    top: 220px;
-    left: 1509px;
+	top: 310px;
+	left: 1509px;
+}
+
+#city #cityFlyingShopContainer {
+	height: 50px !important;
+}
+
+/*
+################
+DETAILS
+################
+*/
+
+/* Beach People */
+#city .animated #locations .beachboys {
+	display: none;
+}
+
+/*
+################
+ADVISORS
+################
+*/
+/* COMMON */
+#header #advisors {
+	background-image: url(boid.png) !important;
+	pointer-events: auto;
+}
+
+#header #advisors .pluslink {
+	background: url(buttons/premiumadvisors_plus.png) no-repeat !important;
+}
+
+/* MILITARY */
+#header #advisors #advMilitary .premium {
+	background-image: {url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true) !important};
+}
+
+#header #advisors #advMilitary .premium {
+	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true) !important;
 }
