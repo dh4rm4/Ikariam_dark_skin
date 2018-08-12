@@ -1,0 +1,46 @@
+/*
+################
+Town Hall
+################
+*/
+
+#city #locations .townHall .buildingimg {
+    background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_townhall.gif) !important;
+} 
+
+#city #locations .townHall .hover {
+    background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_townhall) !important;
+} 
+
+
+
+/*
+################
+Academia
+################
+*/
+#city #locations .academy .hover {
+    background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_academy.gif) !important;
+}
+
+#city #locations .academy .buildingimg {
+    background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_academy.gif) !important;
+
+#city #locations .academy a {
+    height: 90px !important;
+    width: 90px !important;
+    left: -10px !important;
+    bottom: 0px !important;
+}
+
+
+
+/*
+################
+Ambroisy Shop
+################
+*/
+#city #cityFlyingShopContainer {
+    top: 220px;
+    left: 1509px;
+}
