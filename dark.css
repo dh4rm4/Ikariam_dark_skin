@@ -5,10 +5,18 @@ BUILDINGS POSITIONS
 */
 
 #city #locations .position0 {
-	left: 924px !important;
-}
+    left: 924px;
+	}
 
+#city #locations .position5 {
+    left: 880px;
+	    top: 636px;
+		}
 
+#city #locations .position5 {
+    left: 880px;
+	    top: 636px;
+		}
 
 /*
 ################
@@ -17,16 +25,16 @@ Town Hall
 */
 
 #city #locations .townHall .buildingimg {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
-}
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
+	}
 
 #city #locations .townHall .hover {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
-}
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
+	}
 
 #city #locations .building.townHall .flag_position {
-	display: none;
-}
+    display: none;
+	}
 
 
 /*
@@ -36,51 +44,39 @@ Academia
 */
 
 #city #locations .academy .hover {
-	background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_academy.gif) !important;
-}
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_academy.gif?raw=true) !important;
+	}
 
 #city #locations .academy .buildingimg {
-	background-image: url(http://s188.photobucket.com/albums/z250/Hagnuf/cutthroat_ikariam/building_academy.gif) !important;
-}
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_academy.gif?raw=true) !important;
+	}
 
 
-/*
-################
-BARACKS
-################
-*/
-
+/* ################ BARACKS ################ */
 #city .animated #locations .barracks .buildingimg, #city .animated #locations .barracks.busy .buildingimg {
-	background-image: url(img/city/barracks_animted_r.png) !important;
-}
-
-#city #locations .barracks .buildingimg {
-	background-image: url(img/city/barrcks_r.png) !important;
-}
-
-#city .animated #locations .barracks .hover {
-	background-image: url(//gf2.geo.gfsrv.net/cdnd1/f70d31e….png) !important;
-}
-
-#city #locations .barracks .hover {
-	background-image: url(//gf1.geo.gfsrv.net/cdn0c/b994724….png) !important;
-}
-
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_barracks2.gif?raw=true) !important;
+	}
 
 /*
-################
-Ambroisy Shop
-################
-*/
+#city #locations .barracks .hover {
+    display: none;
+	}
+	*/
+
+.animated .animation_flag_barracks_16steps {
+    display: none !important
+	}
+
+
+/* ################ Ambroisy Shop ################ */
+#city #cityFlyingShopContainer {
+    top: 310px;
+	    left: 1509px;
+		}
 
 #city #cityFlyingShopContainer {
-	top: 310px;
-	left: 1509px;
-}
-
-#city #cityFlyingShopContainer {
-	height: 50px !important;
-}
+    height: 50px !important;
+	}
 
 /*
 ################
@@ -90,8 +86,8 @@ DETAILS
 
 /* Beach People */
 #city .animated #locations .beachboys {
-	display: none;
-}
+    display: none;
+	}
 
 /*
 ################
@@ -100,19 +96,19 @@ ADVISORS
 */
 /* COMMON */
 #header #advisors {
-	background-image: url(boid.png) !important;
-	pointer-events: auto;
-}
+    background-image: url(boid.png) !important;
+	    pointer-events: auto;
+		}
 
 #header #advisors .pluslink {
-	background: url(buttons/premiumadvisors_plus.png) no-repeat !important;
-}
+    background: url(buttons/premiumadvisors_plus.png) no-repeat !important;
+	}
 
 /* MILITARY */
 #header #advisors #advMilitary .premium {
-	background-image: {url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true) !important};
-}
+    background-image: {url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true) !important};
+	}
 
 #header #advisors #advMilitary .premium {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true) !important;
-}
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true) !important;
+	}
