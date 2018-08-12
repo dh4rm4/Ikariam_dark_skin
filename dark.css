@@ -1,30 +1,3 @@
-/* ################ BUILDINGS POSITIONS ################ */
-
-#city #locations .position0 {
-    left: 924px;
-	}
-
-#city #locations .position5 {
-    left: 880px;
-	    top: 634px;
-		}
-
-#city #locations .position9 {
-    left: 685px;
-	    top: 505px;
-		}
-
-#city #locations .position10 {
-    left: 1051px;
-	    top: 418px;
-		}
-
-#city #locations .position11 {
-    left: 1207px;
-	    top: 416px;
-		}
-
-
 /* ################ TOWN HALL ################ */
 #city #locations .townHall .buildingimg {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
@@ -50,8 +23,8 @@
 
 
 /* ################ BARACKS ################ */
-/*#city .animated #locations .barracks .buildingimg, #city .animated #locations .barracks.busy .buildingimg {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_barracks2.gif?raw=true) !important;
+#city .animated #locations .barracks .buildingimg, #city .animated #locations .barracks.busy .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/barracks.png?raw=true) !important;
 	}
 
 #city #locations .barracks .hover {
@@ -59,9 +32,8 @@
 	}
 
 .animated .animation_flag_barracks_16steps {
-    display: none !important
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/barracks_flag.png?raw=true);
 	}
-	*/
 
 /* ################ WAREHOUSE ################ */
 #city #locations .warehouse .buildingimg {
