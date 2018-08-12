@@ -1,10 +1,10 @@
 /* ################ TOWN HALL ################ */
 #city #locations .townHall .buildingimg {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/townhall_l.png?raw=true) !important;
 	}
 
 #city #locations .townHall .hover {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_townhall.gif?raw=true) !important;
+    display: none;
 	}
 
 #city #locations .building.townHall .flag_position {
@@ -13,12 +13,13 @@
 
 
 /* ################ ACADEMIA ################ */
+
 #city #locations .academy .hover {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_academy.gif?raw=true) !important;
+    display: none;
 	}
 
 #city #locations .academy .buildingimg {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_academy.gif?raw=true) !important;
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/academy.png?raw=true) !important;
 	}
 
 
@@ -36,10 +37,11 @@
 	}
 
 /* ################ WAREHOUSE ################ */
+/*
 #city #locations .warehouse .buildingimg {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_warehouse.gif?raw=true);
 	}
-
+	*/
 
 /* ################ AMBROISY SHOP ################ */
 #city #cityFlyingShopContainer {
@@ -70,6 +72,27 @@
     diplay: none;
 	}
 
+/* ################ PORTS ################ */
+/* POSITION 1 */
+#city #locations .position1.port .hover {
+    display: none;
+	}
+
+#city #locations .position1.port .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/port.png?raw=true
+	);
+	}
+
+/* POSITION 2 */
+#city #locations .position2.port .hover {
+    display: none;
+	}
+
+#city #locations .position2.port .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/port2.png?raw=true
+	);
+	}
+
 
 /* ################ DETAILS ################ */
 /* Beach People */
@@ -85,11 +108,10 @@
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/base.png?raw=true) !important;
 	    pointer-events: auto;
 		}
-		/*
-		#header #advisors .pluslink {
-		    background: url(buttons/premiumadvisors_plus.png) no-repeat !important;
-			}
-			*/
+
+#header #advisors .pluslink {
+    display: none;
+	}
 
 /* MILITARY */
 #header #advisors #advMilitary .premium {
