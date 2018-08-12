@@ -50,7 +50,7 @@
 
 
 /* ################ BARACKS ################ */
-#city .animated #locations .barracks .buildingimg, #city .animated #locations .barracks.busy .buildingimg {
+/*#city .animated #locations .barracks .buildingimg, #city .animated #locations .barracks.busy .buildingimg {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_barracks2.gif?raw=true) !important;
 	}
 
@@ -61,8 +61,7 @@
 .animated .animation_flag_barracks_16steps {
     display: none !important
 	}
-
-
+	*/
 
 /* ################ WAREHOUSE ################ */
 #city #locations .warehouse .buildingimg {
@@ -90,31 +89,35 @@
     display: none;
 	}
 
-/*
-################
-DETAILS
-################
-*/
+/* ################ WALL ################ */
+#city #locations .wall .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/wall.png?raw=true);
+	}
 
+#city #locations .wall .hover {
+    diplay: none;
+	}
+
+
+/* ################ DETAILS ################ */
 /* Beach People */
 #city .animated #locations .beachboys {
     display: none;
 	}
 
-/*
-################
-ADVISORS
-################
-*/
+
+/* ################ ADVISORS ################ */
 /* COMMON */
+
 #header #advisors {
-    background-image: url(boid.png) !important;
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/base.png?raw=true) !important;
 	    pointer-events: auto;
 		}
-
-#header #advisors .pluslink {
-    background: url(buttons/premiumadvisors_plus.png) no-repeat !important;
-	}
+		/*
+		#header #advisors .pluslink {
+		    background: url(buttons/premiumadvisors_plus.png) no-repeat !important;
+			}
+			*/
 
 /* MILITARY */
 #header #advisors #advMilitary .premium {
