@@ -57,7 +57,7 @@
 
 /* ################ CARPENTER ################ */
 #city #locations .carpentering .buildingimg {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/building_carpentering.gif?raw=true);
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/carpentering.png?raw=true);
 					  }
 
 #city #locations .carpentering .hover {
@@ -128,12 +128,12 @@
 
 /* MILITARY */
 #header #advisors #advMilitary .premium {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/1.png?raw=true);
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true);
 	}
 
 /* RESEARCH */
 #header #advisors #advResearch .premium {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true);
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3.png?raw=true);
 	}
 
 /* DIPLOMACY */
