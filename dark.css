@@ -7,9 +7,6 @@
     display: none;
 	}
 
-#city #locations .building.townHall .flag_position {
-    display: none;
-	}
 
 
 /* ################ ACADEMIA ################ */
@@ -100,6 +97,14 @@
     display: none;
 	}
 
+#city #locations .buildingGround.land .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/flag_black.png?raw=true) !important;
+	}
+
+.animated .flagRedBig, .animated.flagRedBig, #island #cities .animated .flag {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/buildings_flag.png?raw=true) !important;
+	}
+
 
 /* ################ ADVISORS ################ */
 /* COMMON */
@@ -111,13 +116,4 @@
 
 #header #advisors .pluslink {
     display: none;
-	}
-
-/* MILITARY */
-#header #advisors #advMilitary .premium {
-    background-image: {url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/1.png?raw=true) !important};
-	}
-
-#header #advisors #advMilitary .premium {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/1.png?raw=true) !important;
 	}
