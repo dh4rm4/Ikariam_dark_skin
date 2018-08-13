@@ -12,6 +12,16 @@
 	}
 
 
+/* ################ PALACE ################ */
+#city #locations .palace .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/palace.png?raw=true) !important;
+	}
+
+#city #locations .palace .hover {
+    display: none;
+	}
+
+
 /* ################ ACADEMIA ################ */
 #city #locations .academy .hover {
     display: none;
@@ -150,16 +160,17 @@
 #header #advisors #advMilitary .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true);
 	}
+	#header #advisors #advMilitary .premiumactive {
+	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2_active.png?raw=true);
+		}
 
 /* RESEARCH */
 #header #advisors #advResearch .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3.png?raw=true);
 	}
-	/*
 	#header #advisors #advResearch .premiumactive {
 	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
 		}
-		*/
 
 /* DIPLOMACY */
 #header #advisors #advDiplomacy .premium {
