@@ -21,6 +21,14 @@
     display: none;
 	}
 
+/* ################ PALACE COLONY ################ */
+#city #locations .palaceColony .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/palace_colony.png?raw=true) !important;
+	}
+
+#city #locations .palaceColony .hover {
+    display: none;
+	}
 
 /* ################ ACADEMIA ################ */
 #city #locations .academy .hover {
