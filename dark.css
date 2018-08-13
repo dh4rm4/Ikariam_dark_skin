@@ -106,12 +106,14 @@
 #city #locations .position2.port .hover {
     display: none;
 			 }
-			 #city #locations .position2.port .buildingimg {
-			     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/port2.png?raw=true);
-				 				   }
-								   #city .animated #locations .position2.port.busy .buildingimg {
-								       background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/port2.png?raw=true);
-									   }
+
+#city #locations .position2.port .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/port2.png?raw=true);
+					  }
+
+#city .animated #locations .position2.port.busy .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/port2.png?raw=true);
+	}
 
 
 
@@ -124,47 +126,48 @@
 #city #locations .buildingGround.land .buildingimg {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/flag_black.png?raw=true) !important;
 					  }
-					  /* REPLACE PHALANX BY SPARTAN */
-					  #js_barracksUnitHelpPic3 {
-					      content: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_phalanx.png?raw=true) !important;
-						          }
+
+/* REPLACE PHALANX BY SPARTAN */
+#js_barracksUnitHelpPic3 {
+    content: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_phalanx.png?raw=true) !important;
+	        }
 
 .militaryList .army {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/global_army_icon.png?raw=true);
-	}
+	        }
 
 /* OWN PHALANX IN TOWN */
 .soldierOwnN {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_n.png?raw=true) !important;
-	}
+	        }
 
 .soldierOwnNE {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_ne.png?raw=true) !important;
-	}
+	        }
 
 .soldierOwnE {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_e.png?raw=true) !important;
-	}
+	        }
 
 .soldierOwnSE {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_se.png?raw=true) !important;
-	}
+	        }
 
 .soldierOwnS {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_s.png?raw=true) !important;
-	}
+	        }
 
 .soldierOwnSO {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_so.png?raw=true) !important;
-	}
+	        }
 
 .soldierOwnO {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_o.png?raw=true) !important;
-	}
+	        }
 
 .soldierOwnNO {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_no.png?raw=true) !important;
-	}
+	        }
 
 
 
@@ -197,17 +200,19 @@
 #header #advisors #advCities .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/0.png?raw=true);
 	}
-	#header #advisors #advCities .premiumactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/0_active.png?raw=true);
-		}
+
+#header #advisors #advCities .premiumactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/0_active.png?raw=true);
+	}
 
 /* NORMAL */
 #header #advisors #advCities .normal {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/0.png?raw=true);
 	}
-	#header #advisors #advCities .normalactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/0_active.png?raw=true);
-		}
+
+#header #advisors #advCities .normalactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/0_active.png?raw=true);
+	}
 
 
 
@@ -216,17 +221,19 @@
 #header #advisors #advMilitary .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true);
 	}
-	#header #advisors #advMilitary .premiumactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2_active.png?raw=true);
-		}
+
+#header #advisors #advMilitary .premiumactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2_active.png?raw=true);
+	}
 
 /* NORMAL */
 #header #advisors #advMilitary .normal {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2.png?raw=true);
 	}
-	#header #advisors #advMilitary .normalactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2_active.png?raw=true);
-		}
+
+#header #advisors #advMilitary .normalactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2_active.png?raw=true);
+	}
 
 
 /* RESEARCH */
@@ -234,17 +241,19 @@
 #header #advisors #advResearch .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3.png?raw=true);
 	}
-	#header #advisors #advResearch .premiumactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
-		}
+
+#header #advisors #advResearch .premiumactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
+	}
 
 /* NORMAL */
 #header #advisors #advResearch .normal {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3.png?raw=true);
 	}
-	#header #advisors #advResearch .normalactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
-		}
+
+#header #advisors #advResearch .normalactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
+	}
 
 
 /* DIPLOMACY */
@@ -252,18 +261,19 @@
 #header #advisors #advDiplomacy .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1.png?raw=true);
 	}
-	#header #advisors #advDiplomacy .premiumactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1_active.png?raw=true);
-		}
+
+#header #advisors #advDiplomacy .premiumactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1_active.png?raw=true);
+	}
 
 /* NORMAL */
 #header #advisors #advDiplomacy .normal {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1.png?raw=true);
 	}
+
+#header #advisors #advMilitary .normalactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2_active.png?raw=true);
 	}
-	#header #advisors #advMilitary .normalactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2_active.png?raw=true);
-		}
 
 
 /* RESEARCH */
@@ -271,17 +281,19 @@
 #header #advisors #advResearch .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3.png?raw=true);
 	}
-	#header #advisors #advResearch .premiumactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
-		}
+
+#header #advisors #advResearch .premiumactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
+	}
 
 /* NORMAL */
 #header #advisors #advResearch .normal {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3.png?raw=true);
 	}
-	#header #advisors #advResearch .normalactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
-		}
+
+#header #advisors #advResearch .normalactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
+	}
 
 
 /* DIPLOMACY */
@@ -289,15 +301,17 @@
 #header #advisors #advDiplomacy .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1.png?raw=true);
 	}
-	#header #advisors #advDiplomacy .premiumactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1_active.png?raw=true);
-		}
+
+#header #advisors #advDiplomacy .premiumactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1_active.png?raw=true);
+	}
 
 
 /* NORMAL */
 #header #advisors #advDiplomacy .normal {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1.png?raw=true);
 	}
-	#header #advisors #advDiplomacy .normalactive {
-	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1_active.png?raw=true);
-		}
+
+#header #advisors #advDiplomacy .normalactive {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1_active.png?raw=true);
+	}
