@@ -7,10 +7,12 @@
     display: none;
 			 }
 
+#city #locations .building.townHall .flag_position {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/buildings_flag.png?raw=true) !important;
+	}
 
 
 /* ################ ACADEMIA ################ */
-
 #city #locations .academy .hover {
     display: none;
 			 }
@@ -33,8 +35,8 @@
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/barracks_flag.png?raw=true);
 					  }
 
-/* ################ WAREHOUSE ################ */
 
+/* ################ WAREHOUSE ################ */
 #city #locations .warehouse .buildingimg {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/warhouse.png?raw=true);
 					  }
@@ -64,6 +66,7 @@
     display: none;
 			 }
 
+
 /* ################ WALL ################ */
 #city #locations .wall .buildingimg {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/wall.png?raw=true);
@@ -72,6 +75,7 @@
 #city #locations .wall .hover {
     diplay: none;
 			}
+
 
 /* ################ PORTS ################ */
 /* POSITION 1 */
@@ -90,9 +94,8 @@
 			 }
 
 #city #locations .position2.port .buildingimg {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/port2.png?raw=true
-					  );
-						}
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/port2.png?raw=true);
+					  }
 
 
 /* ################ DETAILS ################ */
@@ -106,14 +109,20 @@
 					  }
 
 /* Global Flag */
+/*
 .animated .flagRedBig, .animated.flagRedBig, #island #cities .animated .flag {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/buildings_flag.png?raw=true) !important;
 					  }
+					  */
 
 /* ################ ISLAND ################ */
 /* OWN CITY */
 #island #cities .animated.city.own .island_feature_img {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/island_own_city.png?raw=true) !important;
+	}
+
+.animated .flagBlueBig, .animated.flagBlueBig, #island #cities .animated.city.own .flag {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/buildings_flag.png?raw=true) !important;
 	}
 
 /* ################ ADVISORS ################ */
@@ -146,11 +155,11 @@
 #header #advisors #advResearch .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3.png?raw=true);
 	}
-
-#header #advisors #advResearch .premiumactive {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
-	}
-
+	/*
+	#header #advisors #advResearch .premiumactive {
+	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/premium_3_active.png?raw=true);
+		}
+		*/
 
 /* DIPLOMACY */
 #header #advisors #advDiplomacy .premium {
