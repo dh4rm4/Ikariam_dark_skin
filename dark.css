@@ -333,17 +333,39 @@
 	}
 
 /* OWN PHALANX IN TOWN */
-.soldierOwnNW {
-    background-image: url() !important;
+.soldierOwnN {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_n.png?raw=true) !important;
+	}
+
+.soldierOwnNE {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_ne.png?raw=true) !important;
+	}
+
+.soldierOwnE {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_e.png?raw=true) !important;
+	}
+
+.soldierOwnSE {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_se.png?raw=true) !important;
+	}
+
+.soldierOwnS {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_s.png?raw=true) !important;
+	}
+
+.soldierOwnSO {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_so.png?raw=true) !important;
+	}
+
+.soldierOwnO {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_o.png?raw=true) !important;
+	}
+
+.soldierOwnNO {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_no.png?raw=true) !important;
 	}
 
 
-/* Global Flag */
-/*
-.animated .flagRedBig, .animated.flagRedBig, #island #cities .animated .flag {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/buildings_flag.png?raw=true) !important;
-					  }
-					  */
 
 /* ################ ISLAND ################ */
 /* OWN CITY */
@@ -355,12 +377,15 @@
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/buildings_flag.png?raw=true) !important;
 	}
 
+
+
+
 /* ################ ADVISORS ################ */
 /* COMMON */
 #header #advisors {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/base.png?raw=true) !important;
 					      pointer-events: auto;
-											}
+						  }
 
 #header #advisors .pluslink {
     display: none;
@@ -426,19 +451,18 @@
 #header #advisors #advDiplomacy .premium {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1.png?raw=true);
 	}
-
+	#header #advisors #advDiplomacy .premiumactive {
+	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1_active.png?raw=true);
+		}
 
 /* NORMAL */
 #header #advisors #advDiplomacy .normal {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1.png?raw=true);
 	}
-
-
-kariam_dark_skin/blob/master/img/advisors/2.png?raw=true);
-}
-#header #advisors #advMilitary .normalactive {
-    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2_active.png?raw=true);
 	}
+	#header #advisors #advMilitary .normalactive {
+	    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/2_active.png?raw=true);
+		}
 
 
 /* RESEARCH */
