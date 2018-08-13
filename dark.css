@@ -105,10 +105,16 @@
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/flag_black.png?raw=true) !important;
 					  }
 
+/* Global Flag */
 .animated .flagRedBig, .animated.flagRedBig, #island #cities .animated .flag {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/buildings_flag.png?raw=true) !important;
 					  }
 
+/* ################ ISLAND ################ */
+/* OWN CITY */
+#island #cities .animated.city.own .island_feature_img {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/island_own_city.png?raw=true) !important;
+	}
 
 /* ################ ADVISORS ################ */
 /* COMMON */
