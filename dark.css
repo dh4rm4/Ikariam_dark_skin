@@ -66,13 +66,26 @@
 
 /* ################ AMBROISY SHOP ################ */
 #city #cityFlyingShopContainer {
+/*
     top: 310px;
-		     left: 1509px;
-					}
+	    left: 1509px;
+		*/
+		    display: none;
+			}
 
 #city #cityFlyingShopContainer {
     height: 50px !important;
 			}
+
+/* ################ TAVERN ################ */
+#city #locations .tavern .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/tavern.png?raw=true);
+	}
+
+
+#city #locations .tavern .hover {
+    display:none;
+	}
 
 
 /* ################ CARPENTER ################ */
@@ -125,6 +138,17 @@
 
 
 
+/* ################ SAFEHOUSE ################ */
+#city #locations .safehouse .buildingimg {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/safehouse.png?raw=true);
+	}
+
+#city #locations .safehouse .hover {
+    display: none;
+	}
+
+
+
 /* ################ DETAILS ################ */
 /* Beach People */
 #city .animated #locations .beachboys {
@@ -140,6 +164,12 @@
     content: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_phalanx.png?raw=true) !important;
 	        }
 
+#unitdescription #unit.s303 {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_phalanx_hq.png?raw=true);
+	}
+
+
+/* OWN WALKING SOLDIER IN CITIES */
 .militaryList .army {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/global_army_icon.png?raw=true);
 	        }
@@ -149,7 +179,7 @@
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_n.png?raw=true) !important;
 	        }
 
-.soldierOwnNE {
+.soldierOwnN {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_ne.png?raw=true) !important;
 	        }
 
@@ -173,7 +203,7 @@
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_o.png?raw=true) !important;
 	        }
 
-.soldierOwnNO {
+.soldierOwnON {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/own_soldier_no.png?raw=true) !important;
 	        }
 
