@@ -258,6 +258,16 @@
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/global_army_icon_small.png?raw=true);
 	}
 
+html .icon40.phalanx, #mission .assignUnits li.phalanx {
+    background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/y40_new_phalanx.png?raw=true);
+	}
+
+#mission #armyPreview .image.army {
+    background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/decorations/global_army_icon_small.png
+	);
+	}
+
+
 /* OWN WALKING SOLDIER IN CITIES */
 .militaryList .army {
     background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/global_army_icon.png?raw=true);
