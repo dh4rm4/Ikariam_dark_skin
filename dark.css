@@ -216,14 +216,17 @@
 
 /* POSITION 2 */
 #city .own #locations .position2.shipyard .buildingimg {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/shipyard.png?raw=true);
+	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/shipyard2.png?raw=true);
 }
 
 #city .own #locations .position2.shipyard .hover {
 	display: none;
 }
 
-
+#city #locations .shipyard .img_pos {
+    width: 262px;
+    height: 169px;
+}
 
 
 /* ################ FORESTER ################ */
@@ -268,6 +271,12 @@
 
 #city .own #locations .embassy .hover {
 	display: none;
+}
+
+
+/* DOCKYARD */
+#city #locations .dockyard .buildingimg {
+    background-image: url((https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/dockyard_I.png?raw=true);
 }
 
 
@@ -531,4 +540,5 @@
 #header #advisors #advDiplomacy .normalactive {
 	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1_active.png?raw=true);
 }
+
 
