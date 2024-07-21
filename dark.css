@@ -274,13 +274,19 @@
 }
 
 
-/* DOCKYARD */
+/* ################ DOCKYARD################ */
 #city #locations .dockyard .buildingimg {
-    background-image: url((https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/dockyard_I.png?raw=true);
+    background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/buildings/dockyard_l.png?raw=true) !important;
 }
 
+#city .own #locations .dockyard .hover {
+	display: none;
+}
 
-
+#position24:not(.buildingGround):not(.constructionSite) .img_pos {
+    width: 3410px !important;
+    height: 2720px !important;
+}
 
 /* ################ DETAILS ################ */
 
