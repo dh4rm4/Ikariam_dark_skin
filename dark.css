@@ -1,8 +1,7 @@
+.ikaeasy_flag_bordo_animated_u { background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/tests/flag_bordo_gross2.png) !important}
+
 /* ################ TOWN HALL ################ */
-#container #unit {
-	height: 280px !important;
-	background-repeat: no-repeat;
-}
+
 
 #container .army_small {
 	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/global_army_icon_small.png?raw=true);
@@ -12,99 +11,6 @@
 #container .troops .button_landunits_city {
 	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/global_army_icon_small.png?raw=true);
 }
-
-html .icon40.phalanx,
-#mission .assignUnits li.phalanx {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/y40_new_phalanx.png?raw=true);
-}
-
-#mission #armyPreview .image.army {
-	background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/decorations/global_army_icon_small.png);
-}
-
-/* ## ARCHER ## */
-#unitdescription #unit.s313 {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_archer.png?raw=true);
-	background-size: 250px 275px;
-}
-
-
-
-/* ## LANCER ## */
-/* wiki */
-#unitdescription #unit.s315 {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_spearman.png?raw=true);
-	background-size: 250px 275px;
-}
-
-/* barracks */
-#js_barracksUnitHelpPic2 {
-	content: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_spearman.png?raw=true) !important;
-}
-
-
-/* ## SWORDMAN ## */
-#unitdescription #unit.s302 {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_swordman.png?raw=true);
-	background-size: 250px 275px;
-}
-
-/* barracks */
-#js_barracksUnitHelpPic3 {
-	content: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_swordman.png?raw=true) !important;
-}
-
-
-
-/* ## PHALANX ## */
-/* wiki */
-#unitdescription #unit.s303 {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_ares_phalanx.png?raw=true);
-	background-size: 250px 275px !important;
-}
-
-/* barracks */
-#js_barracksUnitHelpPic1 {
-	content: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_ares_phalanx.png?raw=true);
-}
-
-
-/* ## STEAM GIANT ## */
-#unitdescription #unit.s308 {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_steamgiant.png?raw=true);
-	background-size: 250px 275px;
-}
-
-
-/* ## RIFLEMAN ## */
-#unitdescription #unit.s304 {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_rifleman.png?raw=true);
-	background-size: 250px 275px !important;
-}
-
-
-/* ## MORTAR ## */
-#unitdescription #unit.s305 {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_mortar.png?raw=true);
-	background-size: 250px 275px !important;
-}
-
-
-/* ## STEAM GIANT ## */
-#unitdescription #unit.s311 {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_doctor.png?raw=true);
-	background-size: 250px 275px;
-}
-
-
-
-/* ## BALLONS ## */
-#unitdescription #unit.s309 {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/new_balloon.png?raw=true);
-	background-size: 250px 275px;
-}
-
-
 
 
 
@@ -118,7 +24,7 @@ html .icon40.phalanx,
 }
 
 #city .own #locations .building.townHall .flag_position {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/buildings_flag.png?raw=true) !important;
+	background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/tests/flag_bordo_gross2.png?raw=true) !important;
 }
 
 
@@ -200,18 +106,13 @@ html .icon40.phalanx,
 
 
 /* ################ AMBROISY SHOP ################ */
-#city #cityFlyingShopContainer {
-	    /*
-    top: 310px;
-        left: 1509px;
-       */
-	display: none;
+#city .animated .ambrosia #cityFlyingShop {
+    background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/tests/ambro_balloon_red_naked.png);
 }
 
-#city .own #cityFlyingShopContainer {
-	height: 50px !important;
+#city .animated .ambrosia #cityFlyingShop {
+    background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/tests/ambro_balloon_red_naked.png);
 }
-
 
 
 
@@ -286,7 +187,8 @@ html .icon40.phalanx,
 
 /* ################ SAFEHOUSE ################ */
 #city .own #locations .safehouse .buildingimg {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/safehouse.png?raw=true);
+	background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/buildings/test_safehouse.png?raw=true);
+    	left: -24px;
 }
 
 #city .own #locations .safehouse .hover {
@@ -445,13 +347,13 @@ html .icon40.phalanx,
 /* ################ ISLAND ################ */
 /* OWN CITY */
 #island #cities .animated.city.own .island_feature_img {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/decorations/island_own_city.png?raw=true) !important;
+	background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/tests/city_bordo.png?raw=true) !important;
 }
 
 .animated .flagBlueBig,
 .animated.flagBlueBig,
 #island #cities .animated.city.own .flag {
-	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/buildings/buildings_flag.png?raw=true) !important;
+	background-image: url(https://raw.githubusercontent.com/dh4rm4/Ikariam_dark_skin/master/img/tests/flag_bordo_gross2.png?raw=true) !important;
 }
 
 
@@ -629,3 +531,4 @@ html .icon40.phalanx,
 #header #advisors #advDiplomacy .normalactive {
 	background-image: url(https://github.com/dh4rm4/Ikariam_dark_skin/blob/master/img/advisors/feminine_1_active.png?raw=true);
 }
+
